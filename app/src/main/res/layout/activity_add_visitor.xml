@@ -1,0 +1,99 @@
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+
+    android:gravity="center"
+    android:background="#090101"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="ADD VISITOR"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        style="bold"
+        android:layout_margin="20dp">
+
+    </TextView>
+    <TextView
+
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Firstname"
+        />
+    <EditText
+        android:id="@+id/fname"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Lastname"
+        />
+    <EditText
+        android:id="@+id/lname"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="Purpose"
+        />
+
+    <EditText
+        android:id="@+id/purpose"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="16dp"
+        android:text="Whom To Meeet"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+
+    <EditText
+        android:id="@+id/whomtomeet"
+        android:layout_margin="10dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_margin="10dp"
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BACK TO MANU"
+
+        android:textColor="@color/black"
+        android:background="@color/white"/>
+
+</LinearLayout>
